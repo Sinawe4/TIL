@@ -26,10 +26,10 @@
 ## 적용방법
 > Intellij 기준  
 
-- [다운로드](https://gradle.org/releases/)페이지에서 원하는 버전을 다운 받습니다.
+- [다운로드](https://gradle.org/releases/)페이지에서 원하는 버전을 다운 받습니다. (저는 6.8.3 버전을 사용합니다.)
 - C:\ 에 Gradle 디렉토리를 만들고 그 디렉토리에 다운받은 압축파일을 풀어줍니다.
 - 변수 이름에 GRADLE_HOME
-    - 변수 값에 C:\Gradle\gradle-7.0 입력
+    - 변수 값에 C:\Gradle\gradle-6.8.3 입력
     - 시스템 변수 중 Path 를 선택해서 편집 -> 새로 만들기 %GRADLE_HOME%\bin 추가합니다.
 - 명령 프롬프트를 실행해서 gradle -v 입력후 버전 확인
 - Intellij 에서 Settings -> Build, Execution, Deployment -> Build Tools -> Gradle -> Gradle user home에 설치경로 지정 -> Generate *.iml files for modules imported from Gradle 체크
